@@ -1904,7 +1904,7 @@ h3 {
 .brand_area .brand_active .single_brand img {
   width: auto;
   display: inline-block;
-  filter: contrast(0);
+  /* filter: contrast(0); */
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -1913,7 +1913,7 @@ h3 {
 
 /* line 54, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_resister.scss */
 .brand_area .brand_active .single_brand:hover img {
-  filter: contrast(1);
+  /* filter: contrast(1); */
 }
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_faq.scss */
