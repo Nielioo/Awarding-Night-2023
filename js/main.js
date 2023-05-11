@@ -155,11 +155,11 @@
         autoplayTimeout:1500,
         responsive: {
           0: {
-            items: 1,
+            items: 3,
             nav: false
           },
           767: {
-            items: 4
+            items: 5
           },
           992: {
             items: 7
