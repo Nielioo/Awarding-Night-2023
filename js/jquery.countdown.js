@@ -195,8 +195,8 @@
             this.offset = {
                 seconds: this.totalSecsLeft % 60,
                 // plus 17 because the event starts at 4.30pm
-                minutes: Math.floor(this.totalSecsLeft / 60) % 60 + 30,
-                hours: Math.floor(this.totalSecsLeft / 60 / 60) % 24 + 16,
+                minutes: Math.floor(this.totalSecsLeft / 60) % 60 - 30,
+                hours: Math.floor(this.totalSecsLeft / 60 / 60) % 24 - 7,
                 // ===========================================
                 days: Math.floor(this.totalSecsLeft / 60 / 60 / 24) % 7,
                 daysToWeek: Math.floor(this.totalSecsLeft / 60 / 60 / 24) % 7,
